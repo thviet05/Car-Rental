@@ -31,13 +31,11 @@ npm-debug.log*
 yarn-debug.log*
 yarn-error.log*
 pnpm-debug.log*
-lerna-debug.log*
 
 # ===========================
 # Runtime & Cache
 # ===========================
 .cache/
-.parcel-cache/
 *.local
 
 # ===========================
@@ -53,9 +51,6 @@ coverage/
 .DS_Store
 .DS_Store?
 ._*
-.Spotlight-V100
-.Trashes
-ehthumbs.db
 Thumbs.db
 
 # ===========================
@@ -69,11 +64,14 @@ Thumbs.db
 *.njsproj
 *.sln
 *.sw?
-*.swp
-*.swo
+
+# ===========================
+# Upload temporary files
+# ===========================
+uploads/
+tmp/
 
 # ===========================
 # Vite specific
 # ===========================
 vite.config.js.timestamp-*
-vite.config.ts.timestamp-*
